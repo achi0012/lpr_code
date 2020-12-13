@@ -17,4 +17,14 @@
   ### python3 -m lpr_producer
   ## Server端
   ### python3 -m lpr_consumer
+  
+# Table 結構
+
+  ~~~
+  create table public.MITAC_DEMO(
+	  cctv_id varchar(20),
+	  car_id varchar(20),
+	  record_timestamp varchar(14),
+	  v_type varchar(2)
+  )
  
