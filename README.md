@@ -2,7 +2,8 @@
 
 # 環境需求
   ## python 3.8
-
+  ## 安裝套件
+    pip3 install -r requirements.txt
 # 參數設定
   ## 請參考 lpr_common.py
   ## Edge端
