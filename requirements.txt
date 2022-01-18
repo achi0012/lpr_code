@@ -1,2 +1,6 @@
-confluent-kafka
+fastapi
+uvicorn
+minio
 vertica-python
+requests
+python-redis
