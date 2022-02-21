@@ -93,7 +93,7 @@ def lpr_process(doc):
     try:
         for jpg in doc["jpg_data"]:
             filename = jpg["key"]
-            path = to_date_path(strtodate_yyyymmddhhmmss(jpg["key"][18:32]))
+            path = to_date_path(strtodate_yyyymmddhhmmss(jpg["key"].split("-")[1][9:23]))
             # prevent minio write error
             try:
                 minio_write_image(path+filename, jpg["value"])
